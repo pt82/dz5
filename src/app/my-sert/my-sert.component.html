@@ -1,0 +1,10 @@
+<button routerLink="" >Моя компания</button>
+<button routerLink="/foto" >Мое фото</button>
+<button routerLink="/sert" >Мои сертификаты</button>
+
+
+<div *ngFor="let i of sert">
+<p> {{i.title}}</p>
+<img src={{i.img}} alt="">
+  </div>
+
